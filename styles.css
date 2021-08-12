@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 8px #f0f1f2;
+          box-shadow: 0px 2px 8px #f0f1f2;
+  border-radius: 0px;
+  height: 64px;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.35rem;
+}
+
+.logo-text {
+  font-weight: 300;
+}
+
+.logo h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 5rem;
+}
+
+.login {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+          box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+  border-radius: 2px;
+  margin: 0 3rem;
+}
+
+.sign-up {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 16px;
+  background: #1890ff;
+  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+          box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+}
+
+.box {
+  margin-top: 10rem;
+}
+
+.main-box-container {
+  height: 422px;
+  background: linear-gradient(97.66deg, #2f80ed 0.94%, rgba(123, 174, 244, 0.635417) 73.96%, rgba(150, 191, 246, 0.504346) 83.82%, rgba(255, 255, 255, 0) 121.8%), #56ccf2;
+  /* drop-shadow/.15 */
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box-content h6 {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 1.2rem;
+}
+
+.box-content h1 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 1.2rem;
+}
+
+.box-content p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  width: 600px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 7rem;
+  margin-top: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.duration {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.project {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.box-content-2 {
+  line-height: 3rem;
+}
+
+.box-content-2 h3 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.box-content-2 h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.box-content-2 h6 {
+  font-size: 16px;
+}
+
+.home-img-container {
+  height: 200px;
+  margin-bottom: 2.5rem;
+}
+
+.home {
+  margin-top: 10rem;
+  height: 80vh;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.home-title h1 {
+  font-size: 32px;
+  line-height: 36px;
+  color: #343434;
+  margin-bottom: 0.5rem;
+}
+
+.home-title p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 137% */
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.home-card-content {
+  width: 360px;
+  height: 32px;
+  font-weight: bold;
+  line-height: 32px;
+  text-align: center;
+  color: #343434;
+}
+
+.home-card-content h1 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 1.5rem auto;
+}
+
+.home-card-content p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #343434;
+}
+
+.home-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer {
+  margin-bottom: 5rem;
+}
+
+.footer-heading {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 3rem;
+}
+
+.footer-main-container {
+  height: 850px;
+  background: rgba(24, 144, 255, 0.13);
+  margin-top: 2rem;
+  padding: 5.5rem;
+}
+
+.footer-content h1 {
+  margin-bottom: 1rem;
+  font-style: 28px;
+}
+
+.footer-content p {
+  width: 530px;
+  margin-bottom: 4.5rem;
+}
+
+.footer-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.items {
+  line-height: 2.75rem;
+  font-weight: 700;
+}
+
+.items h1 {
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
